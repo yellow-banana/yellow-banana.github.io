@@ -1,0 +1,128 @@
+body { min-width: 320px; background-color: #FBF8F3; color: #87969d; font-family: 'Montserrat', sans-serif !important; }
+html, button, input, select, textarea { letter-spacing: normal !important; }
+a { text-decoration: none; }
+p { font-family: 'Montserrat', sans-serif !important; }
+.pure-g [class *= "pure-u"] 
+
+.m0auto { margin:0 auto; }
+.mr-rt-5p { margin-right:5%; }
+.mr-tp-1p { margin-top:1%;}
+
+.tal { text-align: center; }
+.ft-bold { font-weight:bold; }
+.ft-fff { color:#fff; }
+.disp-inblk { display:inline-block; }
+.w100p { width: 100%; }
+
+.section-seperator { width:100%; height:1px; background: #eeeeee; margin-bottom: 25px; }
+
+.content { margin: 0 auto; max-width: 768px; background-color: #90CCD4; padding: 50px; border: 1px solid #eeeeee; margin-top:5%; }
+.section { margin-bottom: 20px; font-family: 'Montserrat', sans-serif !important; }
+.section h3 { color: #4C4942; font-size: 20px; font-weight: bold; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; }
+
+.seperator { text-align:center; margin-bottom: 14px; }
+.seperator span { display: inline-block; line-height: 35px; color:#fff; font-family: 'Montserrat', sans-serif !important; font-weight: bold; }
+.seperator line { stroke: #87969d; stroke-width: 2px; }
+.v_line { display: none; }
+.h_line { display: inline; }
+
+.landbg {background: url(./images/home.png) no-repeat; background-size: contain; margin-top: 4px;}
+
+.button-currency {  font-size:80%; font-weight: bold; display:block; margin: 20px 0; padding: 15px; color: #fff; background-color: #368685; text-decoration: none;
+    border-radius: 2px; cursor:pointer; letter-spacing: 0.1em; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; }
+.button-currency:hover { background-color:#8BB700;}
+.button-proceed { font-size:80%; font-weight: bold; display:block; margin: 20px 0; padding: 15px; color: #fff; background-color: #368685; text-decoration: none;
+    border-radius: 2px; cursor:pointer; letter-spacing: 0.1em; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; }
+.button-proceed:hover { background-color:#8BB700;}
+
+.button-close { font-size:80%; font-weight:bold; display:block; width: 50%; margin: 20px auto; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; 
+    padding:10px 0; color: #fff;  background-color: #368685; text-decoration: none;
+    border-radius: 2px; cursor:pointer; letter-spacing: normal; margin-bottom:10px; text-align: center;}
+.button-close:hover { background-color:#8BB700;}    
+
+.button-end { font-size:80%; font-weight: bold; display:block; padding: 15px; color: #fff; background-color: #368685; text-decoration: none;
+    border-radius: 2px; cursor:pointer; letter-spacing: 0.1em; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; text-align: center;}
+.button-end:hover { background-color:#8BB700;}    
+
+.button-service { border-radius: 2px; position: relative; cursor: pointer; background-color: #368685; color: #fff; text-align: center; font-size: 80%; font-weight: 700; line-height: 38px; width: 45%; display: inline-block; font-family: 'Montserrat', sans-serif !important; text-transform: uppercase; }
+.button-service:hover { background-color:#269c9b; }
+.button-service.sel { background-color:#8BB700; }
+
+.service-logo { height: 37px; width: 87px; margin: 0 auto; display: block; }
+.service-logo.wechatpay { background: url(./images/po-wechat-cn.png?20170706) no-repeat; background-size: contain; margin-bottom:-5px; margin-top: 9px; }
+.service-logo.alipay { background: url(./images/po-alipay.png?20170706) no-repeat; background-size: contain; margin-top: 4px; }
+
+.bank select { font-size:90%; width: 100%; height: auto; box-shadow: none; border: 2px solid #eeeeee; font-family: 'Montserrat', sans-serif !important; margin:0 !important; }
+.bank select:focus { border:2px solid #269c9b; }
+
+.pm .pure-g { width: 100%; }
+.method-title { color:#fff; text-transform: uppercase; color:#f9f9f0; }
+.method-sub { font-weight: normal; font-size: 80%; margin: 5%; color: #D8D8D3;}
+.payment-method p { padding: 0 5px; }
+.btn-channel { font-family: 'Montserrat', sans-serif !important; font-size: 80%; font-weight: 700; line-height: 38px; width: 80%; border-radius: 2px; display: block; margin: 15px auto; color: #fff; background-color: #13c1bf; padding: 0px !important; }
+.btn-channel:hover { background-color:#269c9b !important; box-shadow:none !important; }
+.payment-method .pure-button-active {  background-color:#8BB700 !important; box-shadow:none !important;}
+.payment-method input { vertical-align: middle; }
+.payment-method { background-color: #4C4E42; text-align: center; padding:5px 10px 15px; border: 5px solid #90CCD4; box-sizing: border-box; }
+
+.pure-u-1-4.payment-method { width: calc(25% - 10px); }
+
+.disabled.section h3 { color: #dde1e3; }
+.disabled .payment-method p { color: #dde1e3; }
+.disabled .method-title { font-weight: bold; }
+.disabled .method-sub { font-size: 80%; margin: 5%; }
+.disabled .payment-method button { color: #87969d; background-color: #dde1e3; }
+.disabled .payment-method { background-color: #a5d3da;}
+
+.field-amt { font-family: 'Montserrat', sans-serif !important; width: 20%; display: inline-block; color:#fff; font-weight: bold;}
+.field-ipt { font-family: 'Montserrat', sans-serif !important; width: 70%; display: inline-block; height: 25px; box-shadow: none; border: 2px solid #eeeeee; margin: 0 !important; border-radius: 2px; }
+.field-min { font-family: 'Montserrat', sans-serif !important; width:100%; color:#fff; font-size: 80%; margin-top: 3%; }
+
+.welcome-txt { font-size:90%; color: #4C4942; text-align: left; font-weight: normal; }
+.pop-up-task { margin: 0 auto; max-width: 768px; background-color: #ddd; padding: 20px; color:#333;}
+.overlay { position: fixed; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.7); transition: opacity 500ms; visibility: hidden; opacity: 0; }
+.overlay:target { visibility: visible; opacity: 1; }
+
+.popup { font-family: 'Montserrat', sans-serif !important; margin: 70px auto; padding: 20px; background: #fff; border-radius: 5px; width: 35%; position: relative; transition: all 1s ease-in-out; letter-spacing: normal !important;  }
+
+.popup h3 { margin-top: 0; color: #333; margin:0 10%; text-transform: uppercase; }
+.popup h2 { color: #333; margin:0 10%; }
+.popup .close { position: absolute; top: 15px; right: 30px; transition: all 200ms; font-size: 30px; font-weight: bold; text-decoration: none; color: #333; }
+.popup .close:hover { color: #8BB700; }
+.popup .content { max-height: 30%; overflow: auto; }
+
+/* Heart */
+.tyheart-container { display: flex; justify-content: center; align-items: center; }
+.tyheart-img { background: url(./images/heart.png) no-repeat; background-size: contain;margin: 1em; animation: .8s infinite beatHeart; }
+
+@keyframes beatHeart {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  40% { transform: scale(1); }
+  60% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+ /* Media Query */
+
+ @media screen and (min-width: 48em) {
+  .v_line { display: inline-block; }
+	.h_line { display: none; }
+	.seperator { margin-bottom: 0; }
+	.seperator span {display: block; }
+  /*.button-service {display:block;} */
+ }
+
+@media screen and (max-width: 700px) {
+  .box{ width: 70%; }
+  .popup{ width: 80%; margin: 5% auto; font-size:0.9em; padding:15px; overflow-y: scroll; max-height: 90%;}
+  .popup h2 { margin:0 15%;}
+  .button-service {display:block; width: 100%;}
+  .mr-bt-5p { margin-bottom:5%; }
+  .mr-bt-8p { margin-bottom:8%; }
+  .field-amt { width: 100%; margin-bottom:2; }
+  .field-ipt { width: 100%; }
+  .field-min { margin-bottom:8%; }
+}
+
+
